@@ -30,7 +30,7 @@ Example:
 ```
 git add README.md 
 git commit README.md -m "Updated readme"
-git remote add public git@github.com:<your-github-username>/CompInHEP2026.git
+git remote set-url public https://<username>:<token>@github.com/<username>/CompInHEP2026.git
 git push public
 ```
 Some git instructions:
